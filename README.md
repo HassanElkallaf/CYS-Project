@@ -111,8 +111,21 @@ found Broken Access Control via https://juice-shop.herokuapp.com in basket i can
 ## Supporting Material/References:
 
 https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
+![Brute Force](Image2024-12.jpg)
+## Summary:
 
+found  sql injection via https://juice-shop.herokuapp.com in user login i used the payload admin' or 1=1 -- ' which would bybass Authentication.
 
+## Steps To Reproduce:
+
+1- visit https://juice-shop.herokuapp.com/
+2- go to userlogin
+3-inject the payload admin' or 1=1 -- '
+4-observe the alert of sqli
+6-observe the Authentication bybass and successful login
+## Supporting Material/References:
+
+https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
 
 Conclusion:
 
