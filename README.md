@@ -60,6 +60,26 @@ found Authentication bybass via https://juice-shop.herokuapp.com in user login i
 
 https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
 
+![Brute Force](Image)
+## Summary:
+
+enumerating admin path via owasp juice shop and i use the tool ffuf -url -w wordlist to get the admin path 
+
+## Steps To Reproduce:
+
+1- visit http://localhost3000
+2- after we find the path by enumerating
+3-we enter to private path to the admin
+## Supporting Material/References:
+
+https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
+## Recommended Fix:
+
+A Web Application Firewall can block abnormal patterns like enumeration attempts.
+Use monitoring tools to detect suspicious patterns (e.g., repeated attempts from a specific IP)
+## Impact
+
+lead to path admin
 
 Conclusion:
 
