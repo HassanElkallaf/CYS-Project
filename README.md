@@ -2,6 +2,7 @@
                          Web Penetration Testing Report
 
 Executive Summary:
+![Brute Force](Screenshot2024-12-27203119.png)
 
 Purpose of the test and brief overview of key findings:
 The purpose of this web penetration test was to assess the security posture of the target websites, APIs, and applications. The goal was to identify vulnerabilities, assess their potential impact, and provide actionable recommendations to enhance security.
