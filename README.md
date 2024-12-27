@@ -60,7 +60,7 @@ found Authentication bybass via https://juice-shop.herokuapp.com in user login i
 
 https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
 
-![Brute Force](Image)
+![Brute Force](Image.jpg)
 ## Summary:
 
 enumerating admin path via owasp juice shop and i use the tool ffuf -url -w wordlist to get the admin path 
