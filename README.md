@@ -43,7 +43,23 @@ Scope and Methodology:
                  vulnerability show another packet.
                  
  Description, risk, and potential impact (e.g., SQL injection, XSS).
- 
+ ![Brute Force](Image2024.jpg)
+ ## Summary:
+found Authentication bybass via https://juice-shop.herokuapp.com in user login input by use bruteforce on admin credentials by burpsuite
+
+## Steps To Reproduce:
+
+1- visit https://juice-shop.herokuapp.com/)
+2- go to profile and try to login
+3-use admin email ( admin@juice-sh.op )
+4-try any password 
+5-open burp and bruteforce on admin credentials by top 100 passwords
+6-you will find the right password go try it.
+
+## Supporting Material/References:
+
+https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
+
 
 Conclusion:
 
