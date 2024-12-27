@@ -80,6 +80,22 @@ Use monitoring tools to detect suspicious patterns (e.g., repeated attempts from
 ## Impact
 
 lead to path admin
+![Brute Force](WhatsAppImage2024-12-27at23.29.43_05e77862.jpg)
+## Summary:
+
+found stored xss via https://juice-shop.herokuapp.com in product search i used the payload <img src-"http://url.to.file.which/not.exist" onerror-alert(document.cookie);> which would lead to steal cookies, so lead to Account takeover
+
+## Steps To Reproduce:
+
+1- visit https://juice-shop.herokuapp.com/
+2- go to product search input field
+3-inject the payload <img src-"http://url.to.file.which/not.exist" onerror-alert(document.cookie);>
+4-observe the alert of xss
+6-observe that the cookie in the page
+## Supporting Material/References:
+
+https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP 
+
 
 Conclusion:
 
