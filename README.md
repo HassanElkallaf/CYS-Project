@@ -2,7 +2,6 @@
                          Web Penetration Testing Report
 
 Executive Summary:
-![Brute Force](Image2024-12-20at22.58.18_e3170eda.jpg)
 
 Purpose of the test and brief overview of key findings:
 The purpose of this web penetration test was to assess the security posture of the target websites, APIs, and applications. The goal was to identify vulnerabilities, assess their potential impact, and provide actionable recommendations to enhance security.
@@ -42,7 +41,9 @@ Scope and Methodology:
                  cross-site scripting (XSS) in Product Search.
                  SQL injection in login page.
                  vulnerability show another packet.
-
+                 
+ Description, risk, and potential impact (e.g., SQL injection, XSS).
+ 
 
 Conclusion:
 
