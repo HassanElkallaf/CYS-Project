@@ -95,6 +95,23 @@ found stored xss via https://juice-shop.herokuapp.com in product search i used t
 ## Supporting Material/References:
 
 https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP 
+![Brute Force](Image2024-12-2.jpg)
+## Summary:
+
+found Broken Access Control via https://juice-shop.herokuapp.com in basket i can view any basket
+
+## Steps To Reproduce:
+
+1- visit https://juice-shop.herokuapp.com/)
+2- go to basket
+3-open developer tools and go to session
+4-change the value 
+5-then you can view other baskets
+
+## Supporting Material/References:
+
+https://youtu.be/EoH6FbxobS4?si=qjHdl45pOKGSBqbP
+
 
 
 Conclusion:
